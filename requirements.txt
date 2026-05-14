@@ -1,0 +1,10 @@
+streamlit
+pandas
+plotly
+playwright
+requests
+beautifulsoup4
+lxml
+ollama
+python-dotenv
+sqlite-utils
