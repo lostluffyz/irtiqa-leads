@@ -1,220 +1,207 @@
-# Irtiqa AI
-
-AI-powered lead intelligence and qualification infrastructure built with Python, Streamlit, Ollama, Playwright, and SQLite.
-
----
-
-## Overview
-
-Irtiqa AI is a multi-agent lead intelligence system designed to scrape, analyze, qualify, score, and visualize high-value business leads.
-
-The system focuses on identifying:
-- ICP-aligned businesses
-- Operational pain points
-- Lead quality
-- Outreach opportunities
-- Revenue bottlenecks
-
-Current architecture follows a modular pipeline:
-
 ```text
-SCRAPE → ANALYZE → SCORE → VISUALIZE
+SCRAPE → ANALYZE → SCORE → VISUALIZE → OUTREACH
 ```
 
 ---
 
-# Features
+# 🏗️ Multi-Agent Architecture
 
-## Dashboard
-- Modern dark-mode Streamlit dashboard
-- KPI analytics cards
-- Lead tier distribution
-- Industry analytics
-- Lead detail viewer
-- Dynamic filters
-- Search functionality
-- CSV export
-- Real-time database integration
+| Agent | Purpose | Status |
+|---|---|---|
+| Scraper Agent | Business & lead extraction | ⚡ Active |
+| Researcher Agent | Company analysis & enrichment | ✅ Working |
+| Scorer Agent | AI lead qualification system | 🚧 Expanding |
+| Dashboard System | Analytics visualization | ✅ Working |
 
-## AI Lead Intelligence
-- AI lead scoring
-- Confidence scoring
-- Pain point extraction
-- Lead tiering
+---
+
+# 📊 Dashboard Preview
+
+## Main Dashboard
+
+![Dashboard Preview](https://placehold.co/1200x700/050816/8b5cf6?text=Irtiqa+AI+Dashboard)
+
+---
+
+## Lead Intelligence Panel
+
+![Lead Panel](https://placehold.co/1200x700/050816/3b82f6?text=Lead+Intelligence+Panel)
+
+---
+
+# ✨ Features
+
+## 🔍 AI Lead Intelligence
+- Automated lead qualification
+- AI reasoning engine
+- Lead confidence scoring
+- Pain point detection
 - Outreach generation
-- Industry classification
-
-## Infrastructure
-- SQLite persistence
-- Multi-agent architecture
-- Modular pipeline design
-- Dynamic analytics
-- Scalable project structure
 
 ---
 
-# Architecture
-
-## Agent 1 — Scraper
-Responsible for:
-- Website scraping
-- Raw lead collection
-- Data extraction
-- Pipeline ingestion
-
-### Planned Expansion
-- LinkedIn scraping
-- Google Maps scraping
-- Reddit/Twitter/GitHub/Crunchbase scraping
-- Scheduling automation
+## 📈 Analytics Dashboard
+- Interactive charts
+- Lead tier visualization
+- Industry distribution analytics
+- Real-time metrics
+- CSV export support
 
 ---
 
-## Agent 2 — Researcher / Verificator
-Responsible for:
-- Industry classification
-- Lead verification
-- Confidence scoring
-- Pain point analysis
+## 🤖 AI Reasoning Engine
 
-### Planned Expansion
-- SMTP verification
-- MX/DNS checks
-- WHOIS verification
-- Company size verification
+The system analyzes:
+- Company positioning
+- Business pain points
+- Operational inefficiencies
+- Scaling bottlenecks
+- Outreach personalization opportunities
 
 ---
 
-## Agent 3 — Scorer
-Responsible for:
-- Lead scoring
-- Tier assignment
-- Pain point mapping
-- Outreach preparation
-- Dashboard visualization
+# ⚙️ Tech Stack
 
-### Planned Expansion
-- Advanced weighted scoring
-- Objection prediction
-- AI reasoning improvements
-- Multi-channel outreach
-
----
-
-# Tech Stack
-
-| Layer | Technology |
+| Layer | Technologies |
 |---|---|
-| Frontend | Streamlit |
 | Backend | Python |
-| Database | SQLite |
+| Frontend | Streamlit |
 | Visualization | Plotly |
-| AI/LLM | Ollama + Llama |
+| Database | SQLite |
+| AI Models | Ollama |
+| Data Processing | Pandas |
 | Scraping | Playwright |
 
 ---
 
-# Current System Progress
+# 📁 Project Structure
 
-| System | Progress |
+```bash
+irtiqa-leads/
+│
+├── dashboard/
+│   └── app.py
+│
+├── scraper_agent/
+├── scorer_agent/
+├── researcher_agent/
+│
+├── database/
+│
+├── shared/
+│
+├── exports/
+├── logs/
+│
+├── main.py
+└── requirements.txt
+```
+
+---
+
+# 📈 Development Progress
+
+| Component | Progress |
 |---|---|
-| Database Infrastructure | 90% |
-| Dashboard & Visualization | 90% |
-| Basic Scraping Pipeline | 55% |
-| AI Classification | 45% |
-| Verification Engine | 20% |
-| Multi-Source Intelligence | 15% |
-| Outreach Automation | 10% |
-| Full Architecture Completion | 45% |
+| Dashboard UI | █████████░ 90% |
+| Lead Scoring | ███████░░░ 70% |
+| AI Reasoning | ████████░░ 80% |
+| Outreach Engine | █████░░░░░ 50% |
+| Automation Workflows | ███░░░░░░░ 30% |
 
 ---
 
-# Dashboard Preview
+# 🛣️ Roadmap
 
-## Main Dashboard
-(Add screenshot here)
-
-## Lead Intelligence Panel
-(Add screenshot here)
-
-## Analytics View
-(Add screenshot here)
+## ✅ Completed
+- Dashboard infrastructure
+- SQLite integration
+- Lead analytics
+- AI lead scoring
+- Pain point detection
+- Outreach generation
 
 ---
 
-# Recommended Development Order
+## 🚧 In Progress
+- Better UI/UX
+- Advanced AI workflows
+- Lead enrichment
+- Smart filtering system
 
-## Phase 1 — Stabilize Architecture
-- Fix remaining bugs
-- Clean schema
-- Refactor configs
+---
 
-## Phase 2 — Real AI Integration
-- Ollama integration
-- JSON classification
-- Keyword extraction
-- Pain point reasoning
-
-## Phase 3 — Verification Engine
-- SMTP checks
-- Phone validation
-- MX lookup
-- SSL/domain analysis
-
-## Phase 4 — Multi-Source Scraping
-- LinkedIn
-- Reddit
-- Google Maps
-- GitHub
-- Crunchbase
-
-## Phase 5 — Outreach Automation
-- Follow-up sequences
-- Booking pipeline
-- CRM automation
-
-## Phase 6 — Deploy & Scale
+## 🔮 Planned
+- LinkedIn scraping
+- SMTP/email verification
+- CRM integrations
+- Autonomous outreach
 - Cloud deployment
-- SaaS architecture
-- Monitoring & analytics
+- Team collaboration tools
 
 ---
 
-# Installation
+# 🧪 Installation
+
+## Clone Repository
 
 ```bash
 git clone https://github.com/lostluffyz/irtiqa-leads.git
+```
 
+## Move Into Project
+
+```bash
 cd irtiqa-leads
+```
 
+## Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
+## Run Dashboard
+
+```bash
 streamlit run dashboard/app.py
 ```
 
 ---
 
-# Vision
+# 🖥️ Dashboard Highlights
 
-Irtiqa AI aims to become a full autonomous lead intelligence infrastructure capable of:
-
-- Scraping businesses
-- Verifying legitimacy
-- Detecting operational pain points
-- Scoring lead quality
-- Generating outreach
-- Automating revenue workflows
+- Futuristic dark AI dashboard
+- Interactive lead analytics
+- AI reasoning panels
+- Smart lead categorization
+- Modern SaaS-inspired UI
+- Real-time lead visualization
 
 ---
 
-# Project Status
+# 🌌 Vision
 
-This project is currently under active development.
+Irtiqa AI aims to become a fully autonomous lead intelligence infrastructure capable of:
 
-The dashboard layer and database infrastructure are mostly complete, while AI enrichment, verification systems, and outreach automation are actively being expanded.
+- scraping businesses
+- understanding operations
+- qualifying opportunities
+- generating personalized outreach
+- automating lead pipelines
+
+using AI-native workflows.
 
 ---
 
-# License
+# 👨‍💻 Developer
 
-Private/Internal Project
+Built and maintained by **Luffyz** ⚡
+
+---
+
+<div align="center">
+
+### ⭐ If you like this project, consider starring the repository.
+
+</div>
