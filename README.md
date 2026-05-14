@@ -240,7 +240,7 @@ using AI-native workflows.
 
 # 👨‍💻 Developer
 
-Built and maintained by **Luffyz** ⚡
+Built and maintained by **Dhruv** ❤️
 
 ---
 
