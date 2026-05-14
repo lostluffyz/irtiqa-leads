@@ -1,3 +1,51 @@
+<div align="center">
+
+# 🧠 Irtiqa AI
+
+### Autonomous Lead Intelligence Infrastructure
+
+AI-powered lead scraping, qualification, scoring, and outreach intelligence platform.
+
+---
+
+![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red?style=for-the-badge&logo=streamlit)
+![SQLite](https://img.shields.io/badge/SQLite-Database-green?style=for-the-badge&logo=sqlite)
+![Plotly](https://img.shields.io/badge/Plotly-Analytics-purple?style=for-the-badge&logo=plotly)
+![Ollama](https://img.shields.io/badge/Ollama-LLM-black?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Under_Development-orange?style=for-the-badge)
+
+---
+
+### 🚀 AI-Powered Revenue Intelligence Dashboard
+
+Qualify, analyze, and prioritize leads using AI-driven business intelligence workflows.
+
+</div>
+
+---
+
+# 📌 Overview
+
+Irtiqa AI is a multi-agent lead intelligence platform designed to automate:
+
+- Lead scraping
+- Company research
+- AI-based qualification
+- Lead scoring
+- Pain point detection
+- Outreach generation
+- Lead analytics visualization
+
+The system combines AI reasoning, automation workflows, and interactive dashboards into one unified revenue intelligence infrastructure.
+
+---
+
+# 🧠 Core Pipeline
+
+```text
+SCRAPE → ANALYZE → SCORE → VISUALIZE → OUTREACH
+
 ```text
 SCRAPE → ANALYZE → SCORE → VISUALIZE → OUTREACH
 ```
