@@ -42,10 +42,6 @@ The system combines AI reasoning, automation workflows, and interactive dashboar
 ---
 
 # 🧠 Core Pipeline
-
-```text
-SCRAPE → ANALYZE → SCORE → VISUALIZE → OUTREACH
-
 ```text
 SCRAPE → ANALYZE → SCORE → VISUALIZE → OUTREACH
 ```
