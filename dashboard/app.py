@@ -146,7 +146,7 @@ h1, h2, h3 {
 }
 
 /* Remove streamlit branding */
-#MainMenu, footer, header { visibility: hidden; }
+#MainMenu, footer { visibility: hidden; }
 
 /* Divider */
 hr {
